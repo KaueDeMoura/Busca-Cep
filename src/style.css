@@ -1,0 +1,49 @@
+body {
+    font-family: "Trebuchet MS", "arial", "helvetica", "Open Sans", sans-serif;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   margin-left: 10px;
+}
+
+#resultado {
+    max-width: 350px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 2px grey ;
+    width: 50%; /* Defina a largura desejada */
+    margin: 0 auto; /* Isso centraliza horizontalmente a div */
+    margin-top: 20px;
+    text-align: center; /* Isso centraliza o texto dentro da div */
+    border: 1px solid #ccc; /* Adicione uma borda para visualização */
+    padding: 20px; /* Adicione algum espaçamento interno para melhorar a aparência */
+    
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+label {
+display: block;
+text-align: center;
+margin: 0 auto;
+padding: 10px;
+}
+
+#cep {
+    border-radius: 7px;
+    width: 200px; /* Defina a largura desejada para o input */
+}
+
+/* Estilo para o button */
+button {
+    padding: 10px 20px; /* Adicione preenchimento ao botão para torná-lo mais fácil de clicar */
+    margin-top: 20px;
+    background-color: #0071ad;
+    border: 1px solid transparent;
+    color: white;
+    border-radius: 7px;
+}
